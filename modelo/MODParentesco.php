@@ -25,7 +25,7 @@ class MODParentesco extends MODbase{
 		$this->captura('id_tipo_parentesco','int4');
 		$this->captura('id_funcionario','int4');
 		$this->captura('estado_reg','varchar');
-		$this->captura('beneficiario','bool');
+		$this->captura('beneficiario','varchar');
 		$this->captura('heredero','bool');
 		$this->captura('fecha_reg','timestamp');
 		$this->captura('usuario_ai','varchar');
@@ -58,7 +58,7 @@ class MODParentesco extends MODbase{
 		$this->setParametro('id_tipo_parentesco','id_tipo_parentesco','int4');
 		$this->setParametro('id_funcionario','id_funcionario','int4');
 		$this->setParametro('estado_reg','estado_reg','varchar');
-		$this->setParametro('beneficiario','beneficiario','bool');
+		$this->setParametro('beneficiario','beneficiario','varchar');
 		$this->setParametro('heredero','heredero','bool');
 
 		//Ejecuta la instruccion
