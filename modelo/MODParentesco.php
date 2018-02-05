@@ -81,7 +81,7 @@ class MODParentesco extends MODbase{
 		$this->setParametro('id_tipo_parentesco','id_tipo_parentesco','int4');
 		$this->setParametro('id_funcionario','id_funcionario','int4');
 		$this->setParametro('estado_reg','estado_reg','varchar');
-		$this->setParametro('beneficiario','beneficiario','varchar');
+		$this->setParametro('beneficiario','beneficiario','varchar'); //cambio de tipo de dato
 		$this->setParametro('heredero','heredero','bool');
 
 		//Ejecuta la instruccion
